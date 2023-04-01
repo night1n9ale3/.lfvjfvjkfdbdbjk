@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@500&family=Philosopher&family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 1240px;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_text>h1 {
+    font-size: 33px;
+    width: 200px;
+    margin: -100px;
+}
+
+.nav_menu {
+    text-decoration: none;
+    font-size: 15px;
+    color: #4e4d4d;
+    margin: -170px;
+
+}
+
+.nav_menu:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.button {
+    position: relative;
+    left: 40px;
+    padding: 14px 16px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.hero-btn:hover {
+    background-color: #a5a4a4;
+}
+
+.hero-btn:focus {
+    background-color: #202020;
+    transition: 1s
+}
+
+.hero {
+    margin-top: 100px;
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hero_text>h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.hero_text>p {
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.button-2 {
+    margin-top: 20px;
+    background-color: black;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-2>a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-btn-2:hover {
+    background-color: #a5a4a4;
+}
+
+.hero-btn-2:focus {
+    background-color: black;
+    transition: 1s;
+}
+
+.hero-image {
+    display: flex;
+    grid-gap: 20px;
+    margin-left: 150px;
+    height: 550px;
+}
+
+.hero-image>img:nth-child(2){
+    margin-top: 90px;
+}
+
+.about-us {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us-image {
+    height: 450px;
+    width: 400px;
+}
+
+.about-us-text {
+    margin-right: 80px;
+}
+
+.about-us-text>h1 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.about-us-text>p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.7;
+}
+
+.benefit {
+    margin-top: 250px;
+    margin-right: 50px;
+}
+
+.group-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.benefit-text>h1 {
+    font-size: 35px;
+}
+
+.benefit-text>p {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.benefit-image {
+    width: -30px;
+    height: -30px;
+}
+
+.group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reservation {
+    margin-top: 150px;
+}
+
+.ourtext {
+    margin: auto;
+    text-align: center;
+}
+
+.ourtext>h1 {
+    font-size: 25px;
+}
+
+.ourtext>p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card>img {
+    border-radius: 10px;
+}
+
+.card>p {
+    opacity: 0.7;
+}
+
+.card>a {
+    text-decoration: none;
+    color: #424F7B;
+}
+
+.room {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.room-text {
+    margin-right: 400px;
+}
+
+.room-text>p:nth-child(1) {
+    opacity: 0.9;
+}
+
+.room-text>h2 {
+    font-size: 30px;
+}
+
+.room-text>p {
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.more-rooms {
+    display: flex;
+    align-items: center;
+}
+
+.more-rooms>p {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.room-desc {
+    margin-top: -50px;
+}
+
+.desc-card {
+    box-shadow: 0px 5px 10px 0px #a5a4a4;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.desc-card>h3 {
+    font-size: 21px;
+    margin-left: 50px;
+}
+
+.testimonials {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.testimonials>h1 {
+    font-size: 30px;
+}
+
+.testimonials>img {
+    margin-top: 70px;
+}
+
+.small-text>p:nth-child(1) {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.small-text>p:nth-child(2) {
+    margin-top: 30px;
+    opacity: 1;
+}
